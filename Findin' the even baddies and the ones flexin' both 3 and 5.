@@ -1,0 +1,11 @@
+even_baddies = tuple (num for num in range (1,101) if num%2==0)
+
+print("Even squad from 1 to 100: ")
+
+print(even_baddies)
+
+slay_3and5 = tuple (num for num in even_numbers if num %3==0 and num %5==0)
+
+print ("Number that slay both 3and5:")
+
+print (slay_3and5)
