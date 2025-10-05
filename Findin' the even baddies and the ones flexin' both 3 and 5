@@ -4,7 +4,7 @@ print("Even squad from 1 to 100: ")
 
 print(even_baddies)
 
-slay_3and5 = tuple (num for num in even_numbers if num %3==0 and num %5==0)
+slay_3and5 = tuple (num for num in even_baddies if num %3==0 and num %5==0)
 
 print ("Number that slay both 3and5:")
 
